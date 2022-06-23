@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:ital@1&display=swap');
+
+h1,
+h2,
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 3em;
+}
+
+h2{
+  font-size: 2.5em;
+}
+
+h3{
+  font-size: 2em;
+}
+
+
+/* colores de fondo */
+
+.bg-lightblue{
+  background-color: lightblue;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+
+/* colores de texto */
+.text-blue{
+    color: blue;
+}
+
+.text-regular{
+color: pink;
+line-height: 1.4em;
+font-size: 1.1em;
+}
+
+
+.text-white{
+  color: white;
+  }
+
+
+  /* botoneras */
+
+#botonera ul li a{
+  color: black;
+}
+
+#botonera ul li a:hover{
+  color: orange;
+}
+
+/* imagen */
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 280px){
+#botonera img{
+   width: 100px;
+ }
+}
+
+/* selectores */
+
+#selectores li:first-child{
+ background-color: ghostwhite;
+}
+
+#selectores li:nth-child(4){
+  background-color: darkgrey;
+}
+
+#selectores li:hover{
+  background-color: skyblue;
+}
+
+#selectores li:not(.yoNo){
+  color: darkblue;
+}
+
+/* cards */
+
+ .card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+/* inicia footer */
+
+ footer{
+  background: linear-gradient(to left, lightblue, pink);
+ }
+
+ footer .titulo{
+  text-align: center;
+ }
+
+ footer .copy{
+  background: linear-gradient(to left, lightblue, pink);
+  display: flex;
+  justify-content: center;
+ }
+
+ .redes-sociales{
+  display: flex;
+  justify-content: center;
+ }
+
+ .redes-sociales li{
+  font-size: 30px;
+  padding: 0 20px;
+ }
+
+ /* animaciones */
+
+ .linear-gradient{
+  background: linear-gradient(-96deg, lightblue, pink);
+ }
+
+
